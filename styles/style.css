@@ -27,7 +27,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #f2f2f2;
 
   /* выше установили ограничения для секции */
@@ -48,7 +48,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid rgb(1, 0, 0);
+  /* border: 1px solid rgb(1, 0, 0); */
   margin-left: 64px;
   width: 730px;
   z-index: 2;
@@ -102,26 +102,22 @@
 }
 
 .description__two-columns{
-  border: 1px solid rgb(1, 249, 196);
+  /* border: 1px solid rgb(1, 249, 196); */
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   width: 80%;
+  min-width: 784px;
   padding: 0;
-  justify-content: end;
-
-
+  justify-content: space-between;
+  
 }
 
 .description__two-columns__brief{
-  border: 1px solid rgb(35, 63, 175);
+  /* border: 1px solid rgb(35, 63, 175); */
   width: 175px;
  
-}
-
-.description__two-columns__main-text{
-  width: 80%;
-
 }
 
 .description__two-columns__brief-text{
@@ -132,9 +128,40 @@
   padding: 0;
 }
 
-.description__two-columns__paragraph{
+.description__two-columns_main-text{
+  width: 80%;
+  display: flex;
+  margin-top: 0;
+  flex-direction: column;
+
+}
+
+.qq{
+margin: 0;
+padding: 0;
+}
+
+
+
+.description__two_columns_paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.description__two_columns_paragraph_text{
   margin: 0;
-  padding: 0;
+}
+
+.description__two_columns_paragraph_text-middle{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* .description{
