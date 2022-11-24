@@ -19,6 +19,7 @@
 
 .link-figure-color{
   color: #2f80ed;
+  
 }
 
 .header {
@@ -128,17 +129,16 @@
   padding: 0;
 }
 
+.description__two-columns__brief-link{
+  text-decoration: none;
+}
+
 .description__two-columns_main-text{
   width: 80%;
   display: flex;
   margin-top: 0;
   flex-direction: column;
 
-}
-
-.qq{
-margin: 0;
-padding: 0;
 }
 
 
