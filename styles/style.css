@@ -164,49 +164,12 @@
   font-weight: 600;
 }
 
-/* .description{
-  border: 1px solid rgb(232, 158, 22);
-  padding: 0;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-
+.table{
+border: 1px solid red;
+display: flex;
 }
 
-.description__two-columns{
 
-  border: 1px solid rgb(206, 11, 217);
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  align-content: space-between;
-}
-
-.description__two-columns__brief{
-  border: 1px solid rgb(5, 186, 165);
-
-}
-
-.description__two-columns__brief-text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-
-}
-
-.description__two-columns_main-text{
-  border: 1px solid rgb(2, 23, 21);
-  display: flex;
-
-}
-
-.description__two-columns__paragraph{
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 80%;
-} */
 
 
 /* и элемента с модификатором вида ключ-значение */
