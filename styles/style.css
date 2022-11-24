@@ -6,7 +6,19 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.margin-padding-0{
+  margin: 0;
+  padding: 0;
+}
+.text-color{
+  color: #000000;
+}
+
+.link-figure-color{
+  color: #2f80ed;
 }
 
 .header {
@@ -14,77 +26,161 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
- position: relative;
+  position: relative;
   border: 1px solid red;
+  background-color: #f2f2f2;
+
   /* выше установили ограничения для секции */
 }
 
-
-.logo_place_header{
+.logo {
   height: 32px;
   width: 228px;
   position: absolute;
-  background-image: url(../images/logo_place_header.svg);
+}
+.logo_place_header {
   top: 30px;
   left: 64px;
   z-index: 1;
 }
 
- .header__title{
+.header__title {
   display: flex;
   justify-content: center;
   flex-direction: column;
   border: 1px solid rgb(1, 0, 0);
   margin-left: 64px;
   width: 730px;
-  z-index: 1;
-  
+  z-index: 2;
 }
 
-.header_title_text{
+.header_title_text {
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
 }
 
-.header__subtitle{
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
-  width: 388px ;
-  z-index: 1; 
+  width: 388px;
+  z-index: 2;
 }
 
-.header__subtitle_text{
+.header__subtitle_text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  
+  z-index: 2;
+
 }
 
-.header__link{
+.header__link {
   text-decoration: none;
-  color: #2f80ed;
-  }
+  z-index: 2;
+}
 
-.header__main-illustration_image{
+.header__main-illustration_image {
   height: 608px;
   width: 765px;
   position: absolute;
   bottom: 0;
   right: 0;
-} 
+  z-index: 1;
+}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
-  width: 568px; 
-  background-color:#2f80ed ;
-  position: absolute; 
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
-} 
+  z-index: 0;
+}
+
+.description__two-columns{
+  border: 1px solid rgb(1, 249, 196);
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  width: 80%;
+  padding: 0;
+  justify-content: end;
+
+
+}
+
+.description__two-columns__brief{
+  border: 1px solid rgb(35, 63, 175);
+  width: 175px;
+ 
+}
+
+.description__two-columns__main-text{
+  width: 80%;
+
+}
+
+.description__two-columns__brief-text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.description__two-columns__paragraph{
+  margin: 0;
+  padding: 0;
+}
+
+/* .description{
+  border: 1px solid rgb(232, 158, 22);
+  padding: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.description__two-columns{
+
+  border: 1px solid rgb(206, 11, 217);
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-content: space-between;
+}
+
+.description__two-columns__brief{
+  border: 1px solid rgb(5, 186, 165);
+
+}
+
+.description__two-columns__brief-text{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.description__two-columns_main-text{
+  border: 1px solid rgb(2, 23, 21);
+  display: flex;
+
+}
+
+.description__two-columns__paragraph{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 80%;
+} */
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
