@@ -19,7 +19,7 @@
 
 .link-figure-color{
   color: #2f80ed;
-  
+
 }
 
 .header {
@@ -55,7 +55,7 @@
   z-index: 2;
 }
 
-.header_title_text {
+.header__title_text {
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -112,13 +112,13 @@
   min-width: 784px;
   padding: 0;
   justify-content: space-between;
-  
+
 }
 
 .description__two-columns__brief{
   /* border: 1px solid rgb(35, 63, 175); */
   width: 175px;
- 
+
 }
 
 .description__two-columns__brief-text{
@@ -164,12 +164,88 @@
   font-weight: 600;
 }
 
-.table{
-border: 1px solid red;
-display: flex;
+.digits-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle__text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 
+.section-title{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+
+}
+
+.section-title__header{
+  justify-content: center;
+}
+
+.section-subtitle{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+
+}
+
+.section-subtitle__text{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.table{
+  width: 1100px;
+  margin: 0px auto 0px auto;
+  padding: 60px 0 0;
+
+}
+
+
+.items{
+
+  display: flex;
+  list-style: none;
+  justify-content:space-between;
+  margin-bottom: 60px;
+}
+
+.card{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card__title{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.card__body, .card__footer{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.card__body{
+  margin-bottom: 20px;
+}
+
+.items-margin{
+  margin-bottom: 100px;
+}
 
 
 /* и элемента с модификатором вида ключ-значение */
