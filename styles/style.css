@@ -9,7 +9,7 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-.margin-padding-0{
+.margin-padding{
   margin: 0;
   padding: 0;
 }
@@ -19,9 +19,8 @@
 
 .link-figure-color{
   color: #2f80ed;
-  
 }
-
+/*                                         header */
 .header {
   height: 100vh;
   min-height: 600px;
@@ -34,7 +33,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo {
+.header__logo {
   height: 32px;
   width: 228px;
   position: absolute;
@@ -55,7 +54,7 @@
   z-index: 2;
 }
 
-.header_title_text {
+.header__title_text {
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -101,7 +100,7 @@
   right: 0;
   z-index: 0;
 }
-
+/*                                      description */
 .description__two-columns{
   /* border: 1px solid rgb(1, 249, 196); */
   margin: auto;
@@ -112,13 +111,11 @@
   min-width: 784px;
   padding: 0;
   justify-content: space-between;
-  
 }
 
 .description__two-columns__brief{
   /* border: 1px solid rgb(35, 63, 175); */
   width: 175px;
- 
 }
 
 .description__two-columns__brief-text{
@@ -138,10 +135,7 @@
   display: flex;
   margin-top: 0;
   flex-direction: column;
-
 }
-
-
 
 .description__two_columns_paragraph{
   line-height: 34px;
@@ -163,19 +157,297 @@
   font-size: 24px;
   font-weight: 600;
 }
+                                             /*   digits    */
+ .digits-title{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  }
 
-.table{
-border: 1px solid red;
-display: flex;
+.section-title{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+    /* border: 1px solid #000; */
+  }
+
+.section-subtitle__text{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  }
+
+
+.section-subtitle{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  }
+
+
+.section-subtitle__text{
+  justify-content: center;
+  margin-top: 20px;
+  }
+  .table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1100px;
+    /* border: 1px solid rgb(54, 218, 9); */
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+  }
+
+  .table__cell{
+    width: 250px;
+    /* border: 1px solid rgb(206, 84, 8); */
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .table__heading{
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    /* border: 1px solid rgb(54, 218, 9); */
+  }
+  .table__heading_content{
+    padding: 0;
+    margin: 0;
+  }
+
+  .table__text_content{
+    margin: 0 0 20px 0;
+    padding: 0;
+  }
+
+  .table__text_content, .table__footer_content{
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    /* border: 1px solid rgb(54, 218, 9); */
+    margin-bottom: 0;
+    padding: 0;
+    }
+
+/* .table{
+  width: 1100px;
+  margin: 0px auto 0px auto;
+  padding: 60px 0 0;
+  }
+
+
+.table__cell{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  }
+
+.items__card{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(15, 149, 109);
+  }
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  }
+
+.table__text, .table__footer{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid rgb(15, 149, 109);
+  }
+
+.table__text{
+  margin-bottom: 20px;
+  }
+
+  .items-margin{
+    margin-bottom: 100px;
+  } */
+
+
+/*                                                     feynman */
+.feynman{
+  height: 890px;
+  position: relative;
+  margin-top: 100px;
+  background-color: #f2f2f2;
+  z-index: 0;
+
 }
 
 
+.feynman__title{
+  width: 648px;
+  margin-bottom: 70px;
+  text-align:center;
 
+}
 
-/* и элемента с модификатором вида ключ-значение */
+.feynman__title_text{
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+
+  margin-top: 100px;
+}
+
+.feynman__subtitle_text{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+}
+
+.feynman__link_text{
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+
+  position:absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+
+}
+
+.feynman__image{
+  position:absolute ;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+}
+/*                                        kaufman */
+.kaufman{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #1f1f1f;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  z-index:-5 ;
+}
+
+.section-title__header_theme_dark{
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle__text_theme_dark{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.table__heading_content{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text_content{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table_theme_dark{
+  padding: 0 0 90px 0;
+
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  /* border: 1px solid rgb(223, 6, 6); */
 }
+
+
+.triangle_img{
+  width: 877px;
+  height: 877px;
+}
+
+.triangle{
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  z-index:-3 ;
+
+}
+
+
+
+
+
+
+
+/* .table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  border: 1px solid rgb(54, 218, 9);
+  margin: 0 auto 0 auto;
+  padding: 40px;
+}
+
+.table__cell{
+  width: 250px;
+  border: 1px solid rgb(206, 84, 8);
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.table__heading{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  border: 1px solid rgb(54, 218, 9);
+}
+.table__heading_content{
+  padding: 0;
+  margin: 0;
+}
+
+.table__text_content{
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.table__text_content, .table__footer_content{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  border: 1px solid rgb(54, 218, 9);
+  margin-bottom: 0;
+  padding: 0;
+  } */
