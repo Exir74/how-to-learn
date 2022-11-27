@@ -169,6 +169,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .section-subtitle {
@@ -177,10 +179,6 @@
   margin: auto;
 }
 
-.section-subtitle__text {
-  justify-content: center;
-  margin-top: 20px;
-}
 .table {
   display: flex;
   flex-wrap: wrap;
@@ -206,22 +204,13 @@
   margin: 0 0 20px 0;
   padding: 0;
 }
-.table__heading_content {
-  padding: 0;
-  margin: 0;
-}
-
-.table__text_content {
-  margin: 0 0 20px 0;
-  padding: 0;
-}
 
 .table__text_content,
 .table__footer_content {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 0;
+  margin: 0 0 20px 0;
   padding: 0;
 }
 
@@ -302,13 +291,10 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 
-.table__text_content {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
 .table_theme_dark {
   padding: 0 0 90px 0;
 }
