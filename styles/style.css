@@ -238,49 +238,6 @@
     padding: 0;
     }
 
-/* .table{
-  width: 1100px;
-  margin: 0px auto 0px auto;
-  padding: 60px 0 0;
-  }
-
-
-.table__cell{
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  margin-bottom: 60px;
-  }
-
-.items__card{
-  width: 250px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgb(15, 149, 109);
-  }
-
-.table__heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  }
-
-.table__text, .table__footer{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  border: 1px solid rgb(15, 149, 109);
-  }
-
-.table__text{
-  margin-bottom: 20px;
-  }
-
-  .items-margin{
-    margin-bottom: 100px;
-  } */
-
 
 /*                                                     feynman */
 .feynman{
@@ -338,6 +295,7 @@
   left: 0;
 }
 /*                                        kaufman */
+
 .kaufman{
   padding-top: 90px;
   padding-bottom: 90px;
@@ -374,7 +332,6 @@
 }
 .table_theme_dark{
   padding: 0 0 90px 0;
-
 }
 
 .table__cell_theme_dark {
@@ -384,7 +341,6 @@
   margin-top: 80px;
   /* border: 1px solid rgb(223, 6, 6); */
 }
-
 
 .triangle_img{
   width: 877px;
@@ -398,56 +354,3 @@
   z-index:-3 ;
 
 }
-
-
-
-
-
-
-
-/* .table{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  border: 1px solid rgb(54, 218, 9);
-  margin: 0 auto 0 auto;
-  padding: 40px;
-}
-
-.table__cell{
-  width: 250px;
-  border: 1px solid rgb(206, 84, 8);
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
-.table__heading{
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  margin: 0 0 20px 0;
-  padding: 0;
-  border: 1px solid rgb(54, 218, 9);
-}
-.table__heading_content{
-  padding: 0;
-  margin: 0;
-}
-
-.table__text_content{
-  margin: 0 0 20px 0;
-  padding: 0;
-}
-
-.table__text_content, .table__footer_content{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  border: 1px solid rgb(54, 218, 9);
-  margin-bottom: 0;
-  padding: 0;
-  } */
