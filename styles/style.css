@@ -52,7 +52,6 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  z-index: 2;
   margin: 0;
 }
 
@@ -157,16 +156,6 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  justify-content: center;
-  /* margin-top: 20px; */
-}
-
-.table {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto 0 auto;
 }
 
 .table__cell {
