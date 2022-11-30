@@ -35,7 +35,7 @@
 
 .header__title {
   margin: 0;
-  padding: 64px;
+  padding: 0 0 0 64px;
   width: 730px;
   z-index: 2;
   line-height: 96px;
@@ -287,13 +287,13 @@
   box-sizing: border-box;
   padding: 60px 0 40px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer__columns {
   width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer__column {
@@ -326,7 +326,7 @@
 
 .footer__column-link {
   color: white;
-  line-height: 24px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
