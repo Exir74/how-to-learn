@@ -1,0 +1,7 @@
+.link-blur {
+  transition: .7s opacity ease;
+}
+
+.link-blur:hover {
+  opacity: 0.5;
+}
